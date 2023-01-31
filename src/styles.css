@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-[#FFFBEB];
+  @apply text-secondary;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+}
